@@ -33,7 +33,7 @@ const About = () => (
                 <p>
                     <FormattedMessage
                         id='my-description'
-                        defaultMessage='I have been working on web designing and web development for 4 years. Constantly updating the technologies I already master, but also looking to learn new technologies to enrich my skills and improve my good practices as a developer.'
+                        defaultMessage='I have been working on web designing and Mobile development for 3+ years. Constantly updating the technologies I already master, but also looking to learn new technologies to enrich my skills and improve my good practices as a developer.'
                     />
                 </p>
                 <ul>
@@ -53,11 +53,11 @@ const About = () => (
                             <span>
                                 Hobbies:{" "}
                             </span>
-                                Chess, Football and Programming
+                                Cricket, Long Drive and Programming
                         </p>
                     </li>
                     <li>
-                        <p><span>Email:</span> estebancarrizo619@gmail.com</p>
+                        <p><span>Email:</span> dheerajkumarpampari@gmail.com</p>
                     </li>
                     <li>
                         <p>
@@ -67,7 +67,7 @@ const About = () => (
                                     defaultMessage='From:'
                                 />
                             </span>
-                            Tucumán, Argentina
+                            California, USA
                         </p>
                     </li>
                 </ul>
