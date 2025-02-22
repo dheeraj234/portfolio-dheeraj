@@ -53,7 +53,13 @@ const About = () => {
               <p>
                 <FormattedMessage
                   id='about-info-1'
-                  defaultMessage="Hi, I'm Esteban Nahuel Carrizo, a student at the Technological University of Tucumán; I consider myself a person passionate about programming and web development since in 2020 I had the opportunity to get to know this world of the front-end and I was able to create my first web page only using HTML and CSS from there, I felt a great passion for web development, since you can do amazing things knowing how to use HTML, CSS, JavaScript and to this day I still feel that same passion when I create a web page."
+                  defaultMessage="Hi, I'm Dheeraj Kumar Pampari, I am a highly skilled and passionate software engineer with a strong foundation in full-stack development, cloud computing, and mobile applications. Currently pursuing a Master’s in Computer Science at California State University Channel Islands (2024-2026), I am driven by a deep interest in programming and research. I hold a B.Tech in Information Technology from Sreenidhi Institute of Science and Technology (2017-2021), where I developed expertise in building scalable applications.
+
+                  With professional experience as a Full-Stack Developer at Olive Technology, I have worked on developing a Bible translation application across web, mobile, and desktop platforms. I specialize in React.js, React Native, Node.js, Express.js, MongoDB, and AWS, ensuring seamless, high-performance solutions. At Thincovate Software Solutions, I led web accessibility initiatives, enhancing React.js applications for WCAG compliance.
+                  
+                  My technical expertise spans frontend (React.js, Redux Toolkit, Ionic, Electron.js), backend (Node.js, Express.js, MySQL, GraphQL, Flask), and cloud technologies (AWS S3, EC2, Linux, Git, Jira). I have built projects including a speech-to-text Bible translation app, a React Native music streaming app, and a CNN-based media description system for visually impaired users.
+                  
+                  I am committed to pushing technological boundaries, creating efficient, scalable, and accessible solutions that drive meaningful impact."
                 />
               </p>
 
@@ -150,6 +156,16 @@ const About = () => {
                   <FormattedMessage
                     id='about-skills-7'
                     defaultMessage='More than a year using this JavaScript framework, carrying out multiple personal and work projects.'
+                  />
+                </p>
+              </div>
+              <div className="skill-card" data-aos="flip-right" data-aos-delay="300">
+                <img alt="react" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ionic/ionic-original.svg" title="ionic" />
+                <h2 className="skill-name">Ionic</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-7'
+                    defaultMessage='Ionic is an open-source framework for building cross-platform mobile and web apps using web technologies.'
                   />
                 </p>
               </div>

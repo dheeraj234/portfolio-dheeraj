@@ -28,8 +28,8 @@
     "design-info": "Design of attractive interfaces for both web and mobile users, making the most of the brand or product that the client wishes to exploit on their website",
     "development": "Web development",
     "development-info": "Creation of well-structured web pages, good responsive design, attractive color palette, with interactions that give the user satisfaction when browsing the website.",
-    "marketing": "Digital marketing",
-    "marketing-info": "Prepare a strategy and objectives for the promotion of the brand provided by the client, using the internet or other platforms to promote products and services of the brand in question.",
+    "mobile-dev": "mobile development",
+    "mobile-info": "Experienced in React Native mobile development, building cross-platform apps with optimized UI, API integrations, performance tuning, and scalable architecture for iOS/Android.",
     "maintenance": "Web maintenance",
     "maintenance-info": "Complete maintenance of web pages to detect and solve errors, update content whether text, photos, web design elements, add new functions, etc.",
     "seo": "Web positioning (SEO)",
@@ -44,10 +44,10 @@
     "contact-info": "Contact me by: ",
 
 
-    "footer-info": "Page created by Nahuel61920",
+    "footer-info": "Built with Passion",
 
 
-    "about-info-1": "Hi, I'm Esteban Nahuel Carrizo, a student at the Technological University of Tucumán; I consider myself a person passionate about programming and web development since in 2020 I had the opportunity to get to know this world of the front-end and I was able to create my first web page only using HTML and CSS from there, I felt a great passion for web development, since you can do amazing things knowing how to use HTML, CSS, JavaScript and to this day I still feel that same passion when I create a web page.",
+    "about-info-1": "Hi, I'm Dheeraj Kumar Pampari, I am a highly skilled and passionate software engineer with a strong foundation in full-stack development, cloud computing, and mobile applications. Currently pursuing a Master’s in Computer Science at California State University Channel Islands (2024-2026), I am driven by a deep interest in programming and research. I hold a B.Tech in Information Technology from Sreenidhi Institute of Science and Technology (2017-2021), where I developed expertise in building scalable applications. With professional experience as a Full-Stack Developer at Olive Technology, I have worked on developing a Bible translation application across web, mobile, and desktop platforms. I specialize in React.js, React Native, Node.js, Express.js, MongoDB, and AWS, ensuring seamless, high-performance solutions. At Thincovate Software Solutions, I led web accessibility initiatives, enhancing React.js applications for WCAG compliance.My technical expertise spans frontend (React.js, Redux Toolkit, Ionic, Electron.js), backend (Node.js, Express.js, MySQL, GraphQL, Flask), and cloud technologies (AWS S3, EC2, Linux, Git, Jira). I have built projects including a speech-to-text Bible translation app, a React Native music streaming app, and a CNN-based media description system for visually impaired users.I am committed to pushing technological boundaries, creating efficient, scalable, and accessible solutions that drive meaningful impact.",
     "about-info-2": "I consider myself a self-taught person since I like to be constantly learning day by day, both new technologies and new development methods that help me polish and raise my level of learning.",
     "about-info-3": "I have experience working as a freelance web designer and developer, which gave me the opportunity to work on many interesting projects, adapting to the client's needs and budget, which allowed me to improve my skills and knowledge; Additionally, I have also had the opportunity to be part of some online and face-to-face courses that helped me enrich my skills and learn a little more about this beautiful world of web development.",
     "btn-cv": "Download CV",

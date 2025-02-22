@@ -54,7 +54,7 @@ const Header = () => {
                 <Link to="servicios" spy={true} offset={-150} href="#servicios">
                     <FormattedMessage
                         id='services'
-                        defaultMessage='Services'
+                        defaultMessage='Experience'
                     />
                 </Link>
                 <Link to="proyectos" spy={true} offset={-150} href="#proyectos">
@@ -69,10 +69,10 @@ const Header = () => {
                         defaultMessage='Contact'
                     />
                 </Link>
-                <div id="buttons">
+                {/* <div id="buttons">
                     <img onClick={() => idioma.selectLanguage('en-US')} src="https://nahuel61920.github.io/Portafoliovirtual/img/en.png" alt="EEUU" />
                     <img onClick={() => idioma.selectLanguage('es-ES')} src="https://nahuel61920.github.io/Portafoliovirtual/img/es.png" alt="España" />
-                </div>
+                </div> */}
             </nav>
             <div className="switch" id="switch">
                 <DarkMode />

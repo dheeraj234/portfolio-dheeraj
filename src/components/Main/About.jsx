@@ -121,6 +121,10 @@ const About = () => (
                         <img alt="Typescript" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
                         <h5>Typescript</h5>
                     </div>
+                    <div>
+                        <img alt="Angular" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" />
+                        <h5>Angular</h5>
+                    </div>
                 </div>
                 <h4>Back-End</h4>
                 <div className="skill">
@@ -129,7 +133,7 @@ const About = () => (
                         <h5>NodeJs</h5>
                     </div>
                     <div>
-                        <img alt="express" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+                        <img alt="express" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg" />
                         <h5>Express</h5>
                     </div>
                     <div>

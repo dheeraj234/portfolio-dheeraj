@@ -46,17 +46,17 @@ const Service = () => (
                 </p>
             </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="400">
-                <i className="fas fa-chart-line"></i>
+                <i className="fas fa-mobile"></i>
                 <h3>
                     <FormattedMessage
-                        id='marketing'
-                        defaultMessage='Digital marketing'
+                        id='mobile-dev'
+                        defaultMessage='mobile development'
                     />
                 </h3>
                 <p>
                     <FormattedMessage
-                        id='marketing-info'
-                        defaultMessage='Complete maintenance of web pages to detect and solve errors, update content whether text, photos, web design elements, add new functions, etc.'
+                        id='mobile-info'
+                        defaultMessage='Experienced in React Native mobile development, building cross-platform apps with optimized UI, API integrations, performance tuning, and scalable architecture for iOS/Android.'
                     />
                 </p>
             </div>
