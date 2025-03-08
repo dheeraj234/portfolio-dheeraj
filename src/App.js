@@ -33,8 +33,8 @@ function App() {
 
                     <div className='loading-pag'>
                         <div className="loader">
-                            <span>dheeraj</span>
-                            <span>dheeraj</span>
+                            <span>Dheeraj</span>
+                            <span>Dheeraj</span>
                         </div>
                     </div>
 
