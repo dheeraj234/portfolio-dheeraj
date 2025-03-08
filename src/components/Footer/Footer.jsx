@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { FaHeart } from "react-icons/fa";
 
 /* Multi idioma */
 import {FormattedMessage} from 'react-intl';
@@ -13,11 +14,12 @@ const Footer = () =>{
         <footer className="footer">
             <div className="site-footer">
                 <div className="copyright">
-                    <p>
+                    <p style={{display:"flex"}}>
                         <FormattedMessage
                             id='footer-info'
                             defaultMessage='Built with Passion'
                         />
+                        <FaHeart color='red'/>
                     </p>
                 </div>
                 <div className="redes-sociales">

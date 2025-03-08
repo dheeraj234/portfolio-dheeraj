@@ -136,14 +136,14 @@ const About = () => (
                         <img alt="express" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg" />
                         <h5>Express</h5>
                     </div>
-                    <div>
+                    {/* <div>
                         <img alt="php" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
                         <h5>PHP</h5>
                     </div>
                     <div>
                         <img alt="laravel" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" />
                         <h5>Laravel</h5>
-                    </div>
+                    </div> */}
                     <div>
                         <img alt="mysql" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
                         <h5>MySQL</h5>
@@ -154,7 +154,7 @@ const About = () => (
                     </div>
                     <div>
                         <img alt="mongodb" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" />
-                        <h5>MongodDB</h5>
+                        <h5>MongoDB</h5>
                     </div>
                 </div>
                 <h4>
@@ -178,6 +178,10 @@ const About = () => (
                     <div>
                         <img alt="git" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title="git" />
                         <h5>Git</h5>
+                    </div>
+                    <div>
+                    <img alt='AWS' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
+                        <h5>AWS</h5>
                     </div>
                 </div>
             </div>
