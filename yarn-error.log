@@ -15,16 +15,16 @@ Platform:
 
 Trace: 
   SyntaxError: Invalid value type 1787:0 in /home/dheeraj234/portfolio-dheeraj/yarn.lock
-      at Parser.unexpected (file:///usr/local/lib/node_modules/yarn/dist/yarn.js#cjs:50890:11)
-      at Parser.parse (file:///usr/local/lib/node_modules/yarn/dist/yarn.js#cjs:51016:16)
-      at Parser.parse (file:///usr/local/lib/node_modules/yarn/dist/yarn.js#cjs:50993:28)
-      at parse (file:///usr/local/lib/node_modules/yarn/dist/yarn.js#cjs:51091:21)
-      at module.exports.exports.default (file:///usr/local/lib/node_modules/yarn/dist/yarn.js#cjs:50660:96)
+      at Parser.unexpected (file:///usr/local/lib/node_modules/yarn/dist/yarn.js#cjs:50786:11)
+      at Parser.parse (file:///usr/local/lib/node_modules/yarn/dist/yarn.js#cjs:50912:16)
+      at Parser.parse (file:///usr/local/lib/node_modules/yarn/dist/yarn.js#cjs:50889:28)
+      at parse (file:///usr/local/lib/node_modules/yarn/dist/yarn.js#cjs:50987:21)
+      at module.exports.exports.default (file:///usr/local/lib/node_modules/yarn/dist/yarn.js#cjs:50556:96)
       at eval (file:///usr/local/lib/node_modules/yarn/dist/yarn.js#cjs:2988:63)
       at Generator.next (<anonymous>)
       at step (file:///usr/local/lib/node_modules/yarn/dist/yarn.js#cjs:309:30)
       at eval (file:///usr/local/lib/node_modules/yarn/dist/yarn.js#cjs:320:13)
-      at https://portfoliodheeraj-hkuf.w-credentialless-staticblitz.com/blitz.495c5120.js:40:26914
+      at https://portfoliodheeraj-hkuf.w-credentialless-staticblitz.com/blitz.5a421e5b.js:40:26718
 
 npm manifest: 
   {

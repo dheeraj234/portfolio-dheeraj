@@ -60,19 +60,19 @@ const Project = () => {
             <NavLink to="/project/app" offset={-150} duration={500}>
               Apps
             </NavLink>
-            <NavLink to="/project/game" offset={-150} duration={500}>
+            {/* <NavLink to="/project/game" offset={-150} duration={500}>
               <FormattedMessage
                 id='games'
                 defaultMessage='games'
               />
-            </NavLink>
+            </NavLink> */}
           </nav>
         </section>
 
         <section className="projects__grid paginas-web">
           <div className="projects__item">
             <a onClick={() => cambiarEstadoModal17(!estadoModal17)}>
-              <img src={proyectsImg(`./proyecto-17.jpg`)} alt="" className="projects__img" />
+              <img src={proyectsImg(`./chat-app.png`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
@@ -80,7 +80,7 @@ const Project = () => {
               <img src={proyectsImg(`./proyecto-14.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
-          <div className="projects__item">
+          {/* <div className="projects__item">
             <a onClick={() => cambiarEstadoModal15(!estadoModal15)}>
               <img src={proyectsImg(`./proyecto-15.jpg`)} alt="" className="projects__img" />
             </a>
@@ -139,7 +139,7 @@ const Project = () => {
             <a onClick={() => cambiarEstadoModal3(!estadoModal3)}>
               <img src={proyectsImg(`./proyecto-3.jpg`)} alt="" className="projects__img" />
             </a>
-          </div>
+          </div> */}
         </section>
       </main>
 
@@ -149,22 +149,22 @@ const Project = () => {
       >
         <div className="content-modal">
           <div className="pw-content">
-            <div className="eins-modal-preview"><img src={proyectsImg(`./proyecto-17-com.png`)} alt="" /></div>
+            <div className="eins-modal-preview"><img src={proyectsImg(`./chat-app.png`)} alt="" /></div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
                   id='projects-info-17-p1'
-                  defaultMessage='TatoFood, page created for the sale of fast food.'
+                  defaultMessage='Syncronus Chat App'
                 />
               </p>
               <p>
                 <FormattedMessage
                   id='projects-info-17-p2'
-                  defaultMessage='Designed to visually attract the user, with excellent quality culinary preparations and an interface with attractive transitions.'
+                  defaultMessage='A synchronous chat web application built using the MERN stack (MongoDB, Express, React, Node.js). The app allows users to send Direct Messages (DMs) and participate in group chats.'
                 />
               </p>
               <div className="eins-modal-text-2">
-                <span>Link:</span> <a href="https://nahuel61920.github.io/TatoFood/" target="_blank">https://tato-food.com</a>
+                <span>Link:</span> <a href="https://syncronus-chat-app.netlify.app/" target="_blank">https://syncronus-chat-app.netlify.app/</a>
               </div>
               <div className="eins-modal-text-3">
                 <span>
@@ -174,10 +174,10 @@ const Project = () => {
                   />
                 </span>
                 <div className="eins-modal-tec">
-                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
                 </div>
               </div>
             </div>
@@ -228,7 +228,7 @@ const Project = () => {
         </div>
       </Modal>
 
-      <Modal
+      {/* <Modal
         estado={estadoModal15}
         cambiarEstado={cambiarEstadoModal15}
       >
@@ -725,7 +725,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-      </Modal>
+      </Modal> */}
 
       <ScrollToTop />
 
