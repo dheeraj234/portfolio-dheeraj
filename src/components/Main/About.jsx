@@ -53,7 +53,7 @@ const About = () => (
                             <span>
                                 Hobbies:{" "}
                             </span>
-                                Cricket, Long Drive and Programming
+                            Cricket, Long Drive and Programming
                         </p>
                     </li>
                     <li>
@@ -79,9 +79,9 @@ const About = () => (
                         />
                     </a>
                     <div className='mas-info-btn'>
-                    <Link to="/about">
-                        <ButtomGet/>
-                    </Link>
+                        <Link to="/about">
+                            <ButtomGet />
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -94,28 +94,20 @@ const About = () => (
                         <h5>HTML</h5>
                     </div>
                     <div>
-                        <img alt="CSS" className="icons-skils" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
-                        <h5>CSS</h5>
-                    </div>
-                    <div>
                         <img alt="Js" className="icons-skils" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" />
                         <h5>JavaScript</h5>
-                    </div>
-                    <div>
-                        <img alt="Sass" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
-                        <h5>Sass</h5>
                     </div>
                     <div>
                         <img alt="Bootstrap" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
                         <h5>Bootstrap</h5>
                     </div>
                     <div>
-                        <img alt="jQuery" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" />
-                        <h5>jQuery</h5>
+                        <img alt="redux" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" />
+                        <h5>Redux</h5>
                     </div>
                     <div>
                         <img alt="React" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-                        <h5>React</h5>
+                        <h5>ReactJS</h5>
                     </div>
                     <div>
                         <img alt="Typescript" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
@@ -125,6 +117,19 @@ const About = () => (
                         <img alt="Angular" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" />
                         <h5>Angular</h5>
                     </div>
+                    <div>
+                        <img alt="NextJS" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />
+                        <h5>NextJS</h5>
+                    </div>
+                    <div>
+                        <img alt="ionic" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ionic/ionic-original.svg" />
+                        <h5>Ionic</h5>
+                    </div>
+                    <div>
+                        <img alt="electron" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/electron/electron-original.svg" />
+                        <h5>Electron</h5>
+                    </div>
+
                 </div>
                 <h4>Back-End</h4>
                 <div className="skill">
@@ -133,7 +138,8 @@ const About = () => (
                         <h5>NodeJs</h5>
                     </div>
                     <div>
-                        <img alt="express" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg" />
+
+                        <img alt='express' title='express' style={{backgroundColor:'white'}} className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
                         <h5>Express</h5>
                     </div>
                     {/* <div>
@@ -165,12 +171,12 @@ const About = () => (
                 </h4>
                 <div className="skill">
                     <div>
-                        <img alt="figma" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" title="figma" />
-                        <h5>Figma</h5>
+                        <img alt="graphql" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg" title="graphql" />
+                        <h5>Graphql</h5>
                     </div>
                     <div>
-                        <img alt="photoshop" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" title="Photoshop" />
-                        <h5>Photoshop</h5>
+                        <img alt="github" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" title="github" />
+                        <h5>Github</h5>
                     </div>
                     <div>
                         <img alt="Visual Studio Code" className="icons-skils" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Visual_Studio_Code_1.18_icon.svg/1200px-Visual_Studio_Code_1.18_icon.svg.png" title="Visual Studio Code" />
@@ -180,9 +186,18 @@ const About = () => (
                         <h5>Git</h5>
                     </div>
                     <div>
-                    <img alt='AWS' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
+                        <img alt='AWS' className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" title='AWS' />
                         <h5>AWS</h5>
                     </div>
+                    <div>
+                        <img alt="jira" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" title='jira' />
+                        <h5>JIRA</h5>
+                    </div>
+                    <div>
+                        <img alt="bit-bucket" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bitbucket/bitbucket-original.svg" />
+                        <h5>Bit-Bucket</h5>
+                    </div>
+
                 </div>
             </div>
         </div>

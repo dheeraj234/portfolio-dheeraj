@@ -25,7 +25,7 @@ const Services = () => {
         <h2 className="heading">
             <FormattedMessage
                 id='services'
-                defaultMessage='Services'
+                defaultMessage='Experience'
             />
         </h2>
         <div className="row">
@@ -34,13 +34,13 @@ const Services = () => {
                 <h3>
                     <FormattedMessage
                         id='design'
-                        defaultMessage='ADesign UX/UIboult me'
+                        defaultMessage='Desktop development'
                     />
                 </h3>
                 <p>
                     <FormattedMessage
                         id='design-info'
-                        defaultMessage='Design of attractive interfaces for both web and mobile users, making the most of the brand or product that the client wishes to exploit on their website'
+                        defaultMessage='Experience in developing desktop applications using Electron.js, building cross-platform, high-performance apps with seamless integration of web technologies and native features.'
                     />
                 </p>
             </div>
@@ -94,13 +94,13 @@ const Services = () => {
                 <h3>
                     <FormattedMessage
                         id='seo'
-                        defaultMessage='Web positioning (SEO)'
+                        defaultMessage='Database'
                     />
                 </h3>
                 <p>
                     <FormattedMessage
                         id='seo-info'
-                        defaultMessage='Web positioning through SEO, so your website appears in the main search results according to your business, both in Google, Bing, or other internet search engines'
+                        defaultMessage='Strong expertise in both SQL and NoSQL databases, proficient in designing, optimizing, and managing relational and non-relational data structures efficiently.'
                     />
                 </p>
             </div>
@@ -122,7 +122,7 @@ const Services = () => {
         </div>
     </section>
 
-        <section className="site-services">
+        {/* <section className="site-services">
           <h2 className="heading">
             <FormattedMessage
               id='services-price'
@@ -200,13 +200,6 @@ const Services = () => {
                   </span>
                 </li>
               </ul>
-              {/* <div className='portafolio-btn'>
-                <a href="#" className="custom-btn btn-codigo">
-                  <FormattedMessage
-                    id='services-buy'
-                    defaultMessage='buy now'
-                /></a>
-              </div> */}
             </div>
             <div className="columns recomendado" data-aos="fade-up" data-aos-delay="300">
               <h3>
@@ -296,15 +289,6 @@ const Services = () => {
                   </span>
                 </li>
               </ul>
-              
-              {/* <div className='portafolio-btn'>
-                <a href="#" className="custom-btn btn ">
-                  <FormattedMessage
-                    id='services-buy'
-                    defaultMessage='buy now'
-                  />
-                </a> 
-              </div> */}
             </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="400">
               <h3>Premium</h3>
@@ -389,20 +373,11 @@ const Services = () => {
                   </span>
                 </li>
               </ul>
-              
-              {/* <div className='portafolio-btn'>
-                <a href="#" className="custom-btn btn-codigo">
-                  <FormattedMessage
-                    id='services-buy'
-                    defaultMessage='buy now'
-                  />
-                </a>
-              </div> */}
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section className="preguntas">
+        {/* <section className="preguntas">
           <h2 className="heading">
             <FormattedMessage
               id='services-questions'
@@ -463,7 +438,7 @@ const Services = () => {
             />
 
           </div>
-        </section>
+        </section> */}
       </main>
 
 

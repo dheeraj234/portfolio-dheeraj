@@ -58,22 +58,20 @@ const Project = () => {
 
                         />
                         <div className="content">
-                            <h3>CoinPlus</h3>
+                            <h3>Syncronus</h3>
                             <p>
-                                Trading platform for cryptocurrencies
+                                A Chat Application
                             </p>
                             <p className="tecnologias">
-                                React
-                                <span> -</span> CSS
-                                <span> -</span> Redux
-                                <span> -</span> Bootstrap
-                                <span> -</span> TypeScript
-                                <span> -</span> Solidity
+                                ReactJS
+                                <span> -</span> Shadcn
+                                <span> -</span> Javascript
+                                <span> -</span> ExpressJS
                                 <span> -</span> NodeJS
                                 <span> -</span> MongoDB
                             </p>
-                            <a href="https://coin-plus.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/CoinPlus" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://syncronus-chat-app.netlify.app" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/dheeraj234/chat-app" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
@@ -98,7 +96,7 @@ const Project = () => {
                             <a href="https://github.com/Nahuel61920/Justice" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className='caja'>
+                    {/* <SwiperSlide className='caja'>
                         <img
                             src={proyectImg(`./proyecto-app-17.png`)}
                             alt='proyectos'
@@ -277,7 +275,7 @@ const Project = () => {
                             <a href="https://nahuel61920.github.io/PlusAnime/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                             <a href="https://github.com/Nahuel61920/PlusAnime" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
-                    </SwiperSlide>
+                    </SwiperSlide> */}
                 </Swiper>
                 <div className="swiper-pagination"></div>
             </div>

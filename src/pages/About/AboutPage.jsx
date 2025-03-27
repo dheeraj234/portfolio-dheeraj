@@ -12,7 +12,7 @@ import cv from '../../cv/cv.pdf';
 import { FormattedMessage } from 'react-intl';
 
 /* Img */
-import imgabout from '../../img/home.jpg';
+import imgabout from '../../img/home.jpeg';
 
 const About = () => {
 
@@ -130,22 +130,22 @@ const About = () => {
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-down" data-aos-delay="300">
-                <img alt="Bootstrap" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" title="Bootstrap" />
-                <h2 className="skill-name">Bootstrap</h2>
+                <img alt="git" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title="git" />
+                <h2 className="skill-name">Git</h2>
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-5'
-                    defaultMessage='Less than a year using this framework, even so, I used it in countless work projects, which allowed me to get to know it for the most part.'
+                    defaultMessage='Git is a version control system that tracks changes in code, enabling collaboration and history.'
                   />
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-right" data-aos-delay="300">
-                <img alt="jQuery" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" title="jQuery" />
-                <h2 className="skill-name">jQuery</h2>
+                <img alt="github" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" title="github" />
+                <h2 className="skill-name">Github</h2>
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-6'
-                    defaultMessage='A year using this bookstore in the personal and work environment, it is one of the bookstores that I use and manipulate the most.'
+                    defaultMessage='GitHub is a platform for version control, collaboration, and code sharing using Git.'
                   />
                 </p>
               </div>
@@ -186,6 +186,56 @@ const About = () => {
                   <FormattedMessage
                     id='about-skills-9'
                     defaultMessage='It is a framework that I use mostly to be able to manage my APIs in the best way and my http execution model.'
+                  />
+                </p>
+              </div>
+              <div className="skill-card" data-aos="flip-up" data-aos-delay="300">
+                <img alt="linux" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" title="linux" />
+                <h2 className="skill-name">Linux</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-8'
+                    defaultMessage='Linux is an open-source OS based on Unix. It’s secure, customizable, and widely used in servers, development, and ethical hacking. It supports multiple distros.'
+                  />
+                </p>
+              </div>
+              <div className="skill-card" data-aos="flip-up" data-aos-delay="300">
+                <img alt="Redux" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" title="redux" />
+                <h2 className="skill-name">redux</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-8'
+                    defaultMessage='Redux is a state management library for JS apps, using a single store and reducers for predictable updates.'
+                  />
+                </p>
+              </div>
+              <div className="skill-card" data-aos="flip-up" data-aos-delay="300">
+                <img alt="docker" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" title="docker" />
+                <h2 className="skill-name">Docker</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-8'
+                    defaultMessage='Docker is a containerization platform that packages apps with dependencies for easy deployment and scalability.'
+                  />
+                </p>
+              </div>
+              <div className="skill-card" data-aos="flip-up" data-aos-delay="300">
+                <img alt="nextjs" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" title="NextJs" />
+                <h2 className="skill-name">NextJS</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-8'
+                    defaultMessage='Next.js is a React framework for SSR, SSG, API routes, and performance optimization with easy routing.'
+                  />
+                </p>
+              </div>
+              <div className="skill-card" data-aos="flip-up" data-aos-delay="300">
+                <img alt="AWS" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" title="jQuery" />
+                <h2 className="skill-name">AWS</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-8'
+                    defaultMessage='AWS (Amazon Web Services) provides cloud computing services like storage, compute, and databases.'
                   />
                 </p>
               </div>

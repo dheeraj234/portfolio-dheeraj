@@ -63,12 +63,9 @@ function ProjectApp() {
                             />
                         </NavLink>
                         <NavLink to="/project/app" offset={-150} duration={500}>
-                            Apps
-                        </NavLink>
-                        <NavLink to="/project/game" offset={-150} duration={500}>
                             <FormattedMessage
-                                id='games'
-                                defaultMessage='games'
+                                id='app'
+                                defaultMessage='Apps'
                             />
                         </NavLink>
                     </nav>
@@ -120,8 +117,10 @@ function ProjectApp() {
                                     />
                                 </span>
                                 <div className="eins-modal-tec">
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />                                    
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
                                 </div>
                             </div>
                         </div>
@@ -160,7 +159,7 @@ function ProjectApp() {
                                     />
                                 </span>
                                 <div className="eins-modal-tec">
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg" alt="" />
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ionic/ionic-original.svg" alt="" />
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/capacitor/capacitor-original.svg" />

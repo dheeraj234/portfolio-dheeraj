@@ -142,12 +142,12 @@ export default function ParticleHeaderBg() {
               },
               image: [
                 {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg",
                   width: 20,
                   height: 20,
                 },
                 {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
                   width: 20,
                   height: 20,
                 },
@@ -157,7 +157,7 @@ export default function ParticleHeaderBg() {
                   height: 20,
                 },
                 {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg",
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
                   width: 20,
                   height: 20,
                 },
@@ -187,7 +187,7 @@ export default function ParticleHeaderBg() {
                   height: 20,
                 },
                 {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg",
                   width: 20,
                   height: 20,
                 },
@@ -201,15 +201,31 @@ export default function ParticleHeaderBg() {
                   width: 20,
                   height: 20,
                 },
-              ],
-              images: [
                 {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
+                            
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ionic/ionic-original.svg",
                   width: 20,
                   height: 20,
                 },
                 {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
+                  width: 20,
+                  height: 20,
+                },
+              ],
+              images: [
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: "hhttps://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
                   width: 20,
                   height: 20,
                 },
@@ -219,7 +235,7 @@ export default function ParticleHeaderBg() {
                   height: 20,
                 },
                 {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg",
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
                   width: 20,
                   height: 20,
                 },
@@ -255,7 +271,7 @@ export default function ParticleHeaderBg() {
                   height: 20,
                 },
                 {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg",
                   width: 20,
                   height: 20,
                 },
@@ -266,6 +282,16 @@ export default function ParticleHeaderBg() {
                 },
                 {
                   src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
                   width: 20,
                   height: 20,
                 },

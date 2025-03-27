@@ -11,25 +11,10 @@ const Service = () => (
         <h2 className="heading">
             <FormattedMessage
                 id='services'
-                defaultMessage='Services'
+                defaultMessage='Experience'
             />
         </h2>
         <div className="row">
-            <div className="columns" data-aos="fade-up" data-aos-delay="200">
-                <i className="fas fa-drafting-compass"></i>
-                <h3>
-                    <FormattedMessage
-                        id='design'
-                        defaultMessage='ADesign UX/UIboult me'
-                    />
-                </h3>
-                <p>
-                    <FormattedMessage
-                        id='design-info'
-                        defaultMessage='Design of attractive interfaces for both web and mobile users, making the most of the brand or product that the client wishes to exploit on their website'
-                    />
-                </p>
-            </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="300">
                 <i className="fas fa-laptop"></i>
                 <h3>
@@ -60,6 +45,21 @@ const Service = () => (
                     />
                 </p>
             </div>
+            <div className="columns" data-aos="fade-up" data-aos-delay="200">
+                <i className="fas fa-drafting-compass"></i>
+                <h3>
+                    <FormattedMessage
+                        id='design'
+                        defaultMessage='Desktop development'
+                    />
+                </h3>
+                <p>
+                    <FormattedMessage
+                        id='design-info'
+                        defaultMessage='Experience in developing desktop applications using Electron.js, building cross-platform, high-performance apps with seamless integration of web technologies and native features.'
+                    />
+                </p>
+            </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="500">
                 <i className="fas fa-wrench"></i>
                 <h3>
@@ -80,13 +80,13 @@ const Service = () => (
                 <h3>
                     <FormattedMessage
                         id='seo'
-                        defaultMessage='Web positioning (SEO)'
+                        defaultMessage='Database'
                     />
                 </h3>
                 <p>
                     <FormattedMessage
                         id='seo-info'
-                        defaultMessage='Web positioning through SEO, so your website appears in the main search results according to your business, both in Google, Bing, or other internet search engines'
+                        defaultMessage='Strong expertise in both SQL and NoSQL databases, proficient in designing, optimizing, and managing relational and non-relational data structures efficiently.'
                     />
                 </p>
             </div>
