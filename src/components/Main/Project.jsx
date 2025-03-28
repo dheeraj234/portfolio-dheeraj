@@ -53,7 +53,7 @@ const Project = () => {
                 >
                     <SwiperSlide className='caja'>
                         <img
-                            src={proyectImg(`./proyecto-app-18.png`)}
+                            src={proyectImg(`./chat-app.png`)}
                             alt='proyectos'
 
                         />
