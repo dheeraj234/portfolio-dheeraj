@@ -6,6 +6,7 @@ import { ButtomGet } from '../ButtomGet/ButtomGet';
 
 /* Multi idioma */
 import { FormattedMessage } from 'react-intl';
+const googleDriveCVLink = "https://drive.google.com/file/d/1__STjgRZ19o6qXKO6uUWfrYodGmi41-q/view?usp=drive_link";
 
 const About = () => (
     <section className="sobre-mi" id="sobre-mi">
@@ -72,7 +73,7 @@ const About = () => (
                     </li>
                 </ul>
                 <div className="mas-info">
-                    <a href={cv} target="_blank" rel="noopener noreferrer" download="cv.pdf" className="btn-codigo buttonDownload">
+                <a href={googleDriveCVLink} target="_blank" rel="noopener noreferrer" className="btn-codigo buttonDownload">
                         <FormattedMessage
                             id='btn-cv'
                             defaultMessage='Download CV'

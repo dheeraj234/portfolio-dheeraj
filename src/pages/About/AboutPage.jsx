@@ -13,6 +13,7 @@ import { FormattedMessage } from 'react-intl';
 
 /* Img */
 import imgabout from '../../img/home.jpeg';
+const googleDriveCVLink = "https://drive.google.com/file/d/1__STjgRZ19o6qXKO6uUWfrYodGmi41-q/view?usp=drive_link";
 
 const About = () => {
 
@@ -41,8 +42,7 @@ const About = () => {
           <div className="sobre-mi-container">
             <div className="sobre-mi-img-container">
               <img src={imgabout} alt="" className="sobre-mi-img" />
-              
-              <a href={cv} target="_blank" rel="noopener noreferrer" download="cv.pdf" className="btn-codigo cv buttonDownload">
+              <a href={googleDriveCVLink} target="_blank" rel="noopener noreferrer" className="btn-codigo buttonDownload">
                   <FormattedMessage
                       id='btn-cv'
                       defaultMessage='Download CV'
