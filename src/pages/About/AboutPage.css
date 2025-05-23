@@ -217,8 +217,9 @@ section .row .columns .skill img:hover {
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    -webkit-align-items: flex-end;
+    align-items: center;
+    -webkit-align-items: center;
+    flex-direction: column;
 }
 
 .sobre-mi-info p{
